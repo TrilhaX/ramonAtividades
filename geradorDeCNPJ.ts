@@ -26,7 +26,7 @@ function geradorCNPJ(cnpj){
         cnpj.push(numCNPJ)
     }
 
-    const cnpjValido = cnpjValido =>{
+    const cnpjValido = cnpj =>{
         if (cnpj.every(digito => digito === cnpj[0])){
             return valido = false;
         }
